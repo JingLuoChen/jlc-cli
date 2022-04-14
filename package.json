@@ -1,0 +1,37 @@
+{
+  "name": "jlc-ui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/mico-com.umd.js",
+  "module": "lib/mico-com.es.js",
+  "keyword": "vue3 vite",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "build:package": "vue-tsc --noEmit && vite build"
+  },
+  "dependencies": {
+    "less": "^4.1.2",
+    "vue": "^3.0.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "@vitejs/plugin-vue-jsx": "^1.3.3",
+    "less-loader": "^7.3.0",
+    "sass": "^1.45.1",
+    "typescript": "^4.4.4",
+    "vite": "^2.8.6",
+    "vue-tsc": "^0.29.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JingLuoChen/jlc-ui.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JingLuoChen/jlc-ui/issues"
+  },
+  "homepage": "https://github.com/JingLuoChen/jlc-ui#readme"
+}
